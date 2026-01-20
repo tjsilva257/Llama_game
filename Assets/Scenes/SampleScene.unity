@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 0d5771081eb9abb43b1792b52260d914, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -25235,7 +25235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98e40ec84f5770b479a2bdd6f5399faf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bumpPower: 20000000
+  bumpPower: 2
 --- !u!1 &428461905
 GameObject:
   m_ObjectHideFlags: 0
@@ -26792,6 +26792,51 @@ Transform:
   m_Children:
   - {fileID: 1279812781}
   m_Father: {fileID: 1723875185}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &451943271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 451943273}
+  - component: {fileID: 451943272}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &451943272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451943271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b915a9799a84d5c4f874702b3b258b88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skySpeed: 5
+--- !u!4 &451943273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451943271}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.0921307, y: 3.675527, z: -12.322639}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &452196479 stripped
 Transform:
@@ -122265,7 +122310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98e40ec84f5770b479a2bdd6f5399faf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bumpPower: 5
+  bumpPower: 2
 --- !u!1 &1931970838
 GameObject:
   m_ObjectHideFlags: 0
@@ -135823,3 +135868,4 @@ SceneRoots:
   - {fileID: 1816080715}
   - {fileID: 428122707}
   - {fileID: 1790828256}
+  - {fileID: 451943273}

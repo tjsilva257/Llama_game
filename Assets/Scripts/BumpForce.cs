@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 public class BumpForce : MonoBehaviour 
 {
-    public float bumpPower = 5f;
+    public float bumpPower = 2f;  // Reduced from 5 - try adjusting this in Inspector
 
     void OnCollisionEnter(Collision collision)
     {
